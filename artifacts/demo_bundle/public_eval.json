@@ -1,0 +1,68 @@
+{
+  "homework_name": "Homework: Sim-to-Real Quadruped Locomotion with MuJoCo Playground",
+  "robot": "Go2",
+  "environment_name": "Go2JoystickFlatTerrain",
+  "stage_name": "stage_2",
+  "checkpoint_dir": "/home/shashank/notebook_work/course_repo/artifacts/run_updates/best_checkpoint",
+  "num_steps": 750,
+  "metrics": {
+    "velocity_tracking_error": 0.14312651753425598,
+    "yaw_tracking_error": 0.06819117814302444,
+    "fall_rate": 0.0,
+    "energy_proxy": 17.314340591430664,
+    "foot_slip_proxy": 0.14085955917835236
+  },
+  "normalized_scores": {
+    "velocity_tracking_error": 0.8767813784735544,
+    "yaw_tracking_error": 1.0,
+    "fall_rate": 1.0,
+    "energy_proxy": 0.7089268565177917,
+    "foot_slip_proxy": 0.3285580045647092
+  },
+  "course_composite_score": 0.8460683113998838,
+  "rollout_summary": {
+    "video_path": "/home/shashank/notebook_work/course_repo/artifacts/demo_bundle/demo.mp4",
+    "rollout_npz": "/home/shashank/notebook_work/course_repo/artifacts/demo_bundle/rollout_public_eval.npz",
+    "num_steps_simulated": 750,
+    "terminated_early": false,
+    "done_step": null,
+    "x_distance_m": -1.7709311246871948,
+    "y_offset_m": -0.3933423161506653,
+    "final_base_height_m": 0.348228394985199,
+    "mean_command_vx": 0.2500000298023224,
+    "mean_measured_vx": 0.12087636440992355,
+    "mean_abs_yaw_error": 0.06819117814302444,
+    "demo_segments": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.4,
+        0.0,
+        0.0
+      ],
+      [
+        0.6,
+        0.0,
+        0.0
+      ],
+      [
+        0.3,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  }
+}
